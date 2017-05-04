@@ -4,12 +4,14 @@
 'Prereq.  : -
 'Note     : -
 '
-'   Author: Knuth Konrad 2003-2012
+'   Author: Knuth Konrad
 '   Source: -
-'  Changed: -
+'  Changed: 04.05.2017
+'           - #GBreak on to prevent console context menu changes
 '------------------------------------------------------------------------------
 #Compile Exe ".\DateEcho.exe"
 #Option Version5
+#Break On
 #Dim All
 
 #Debug Error Off
@@ -19,7 +21,7 @@ DefLng A-Z
 
 %VERSION_MAJOR = 1
 %VERSION_MINOR = 0
-%VERSION_REVISION = 1
+%VERSION_REVISION = 2
 
 ' Version Resource information
 #Include ".\DateEchoRes.inc"
