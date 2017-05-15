@@ -7,7 +7,9 @@
 '   Author: Knuth Konrad
 '   Source: -
 '  Changed: 04.05.2017
-'           - #GBreak on to prevent console context menu changes
+'           - #Break on to prevent console context menu changes
+'           15.05.2017
+'           - Application manifest added
 '------------------------------------------------------------------------------
 #Compile Exe ".\DateEcho.exe"
 #Option Version5
@@ -21,7 +23,7 @@ DefLng A-Z
 
 %VERSION_MAJOR = 1
 %VERSION_MINOR = 0
-%VERSION_REVISION = 2
+%VERSION_REVISION = 3
 
 ' Version Resource information
 #Include ".\DateEchoRes.inc"
