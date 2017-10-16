@@ -13,8 +13,8 @@
 #Resource Version$ "LegalCopyright",   "Copyright 2002-2017 BasicAware"
 #Resource Version$ "OriginalFilename", "DateEcho.exe"
 #Resource Version$ "ProductName",      "DateEcho"
-#Resource Version$ "ProductVersion",   "1.0.3.0"
-#Resource Version$ "FileVersion",      "1.0.3.0"
+#Resource Version$ "ProductVersion",   "2.0.0.0"
+#Resource Version$ "FileVersion",      "2.0.0.0"
 #Resource Version$ "Comments",         "Written by Knuth Konrad"
 
 $COMPANY_NAME = "BasicAware"
