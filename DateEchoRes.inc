@@ -10,11 +10,11 @@
 
 #Resource Version$ "CompanyName",      "BasicAware"
 #Resource Version$ "FileDescription",  "Echo date/time to STDOut"
-#Resource Version$ "LegalCopyright",   "Copyright 2002-2017 BasicAware"
+#Resource Version$ "LegalCopyright",   "Copyright 2002-2021 BasicAware"
 #Resource Version$ "OriginalFilename", "DateEcho.exe"
 #Resource Version$ "ProductName",      "DateEcho"
-#Resource Version$ "ProductVersion",   "2.0.0.0"
-#Resource Version$ "FileVersion",      "2.0.0.0"
+#Resource Version$ "ProductVersion",   "2.0.0.1"
+#Resource Version$ "FileVersion",      "2.0.0.1"
 #Resource Version$ "Comments",         "Written by Knuth Konrad"
 
 $COMPANY_NAME = "BasicAware"

@@ -23,7 +23,7 @@ DefLng A-Z
 
 %VERSION_MAJOR = 2
 %VERSION_MINOR = 0
-%VERSION_REVISION = 0
+%VERSION_REVISION = 1
 
 ' Version Resource information
 #Include ".\DateEchoRes.inc"
@@ -173,7 +173,7 @@ End Function
 
 Sub ShowHelp()
 
-Print "DateEcho prints the current date/time to STDOUT. This might be usefull"
+Print "DateEcho prints the current date/time to STDOUT. This might be useful"
 Print "to log dates/times in batch processing jobs."
 Print ""
 Print "Usage: DateEcho /<Date|Time>=<Format>"
@@ -199,7 +199,7 @@ Print "s - use short date format as defined in system settings (Control Panel)"
 Print ""
 Print "Custom format"
 Print "-------------"
-Print "The following variables may be used with the mask parameter:"
+Print "The following variables may be used with the mask parameter (/m):"
 Print "yyyy - 4-digit year"
 Print "yy   - 2-digit year (with leading zero)"
 Print "mm   - 2-digit month (with leading zero)"
@@ -210,7 +210,7 @@ Print "nn   - 2 digit minute (with leading zero)"
 Print "ss   - 2 digit second (with leading zero)"
 Print "ms   - 3 digit millisecond (with leading zero)"
 Print ""
-Print "Any other character present will be returned 'as is'."
+Print "Any other character present in <mask> will be returned 'as is'."
 
 End Sub
 '---------------------------------------------------------------------------
